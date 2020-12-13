@@ -7,10 +7,13 @@
 .logo_img{
     margin: 0;
     padding: 0;
-    max-height: 60px;
+    max-height: 80px;
     object-fit: contain;
 }
 
+.logo_container{
+    display: flex;
+}
 
 .logo_container svg{
     width: 2em;
@@ -21,9 +24,9 @@
     margin-bottom: .5em;
 }
 
-.logo_container span{
+.logo_container p{
     color: white;
     font-weight: bold;
-    font-size: 1.5em;
-    padding-top: auto;
+    font-size: 1em;
+    margin-top: 1.3em;
 }
