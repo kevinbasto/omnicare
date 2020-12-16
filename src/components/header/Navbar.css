@@ -21,6 +21,10 @@
     transition: 300ms
 }
 
+.nav_option svg{
+    fill: #622C7B;
+}
+
 .nav_option:hover{
     filter: opacity(.8);
     cursor: pointer;
