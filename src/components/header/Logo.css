@@ -1,0 +1,32 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_img{
+    margin: 0;
+    padding: 0;
+    max-height: 80px;
+    object-fit: contain;
+}
+
+.logo_container{
+    display: flex;
+}
+
+.logo_container svg{
+    width: 2em;
+    height: 2em;
+    fill: white;
+    stroke: white;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.logo_container p{
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    padding-top: .7em;
+}
