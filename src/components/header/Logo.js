@@ -1,6 +1,6 @@
 import React from 'react'
 import './Logo.css'
-import {ReactComponent as Omnilogo} from './omnicare_web.svg'
+import {ReactComponent as Omnilogo} from '../icons/omnicare_web.svg'
 
 function Logo() {
     return (
