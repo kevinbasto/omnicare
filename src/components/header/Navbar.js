@@ -5,7 +5,11 @@ function Navbar() {
     return (
         <div className="col-12 col-sm-6 col-md-3">
             <div className="row no-gutters d-flex justify-content-center align-items-center navigation">
-                <div>Hello world!</div>
+                <ul className="nav_menu">
+                    <li className="nav_option">1</li>
+                    <li className="nav_option">2</li>
+                    <li className="nav_option">3</li>
+                </ul>
             </div>
         </div>
     )

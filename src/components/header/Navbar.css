@@ -1,3 +1,27 @@
 .navigation{
     height: 100%;
 }
+
+.nav_menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.nav_option{
+    background-color: #fff;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    transition: 300ms
+}
+
+.nav_option:hover{
+    filter: opacity(.8);
+    cursor: pointer;
+}
