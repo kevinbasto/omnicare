@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div style= {{height: '100vh'}}>a</div>
+      <div style= {{minHeight: '85.9vh'}}>a</div>
       <Footer />
     </div>
   );

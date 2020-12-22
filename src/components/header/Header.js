@@ -4,7 +4,7 @@ import './Header.css';
 //subcomponents
 import Navbar from './Navbar';
 import SearchBar from './Searchbar';
-import Logo from './Logo';
+import Logo from '../Commons/Logo';
 
 function Header() {
     return (
